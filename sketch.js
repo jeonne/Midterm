@@ -137,7 +137,7 @@ function draw() {
       rect(0, 0, 600, 540);
       image(win, 150, 150, 600-150*2, 540-150*2 ); 
       sound_win.play();
-      sound_win_noloop();
+      sound_win.noloop();
     
     } 
     
